@@ -7,7 +7,7 @@ import { RootStackParamList } from "./types/types";
 import OrdersScreen from "../features/orders/screens/OrdersScreen";
 import OrdersDetailsScreen from "../features/orders/screens/OrdersDetailsScreen";
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export function AppNavigator() {
   return (
@@ -17,6 +17,7 @@ export function AppNavigator() {
         screenOptions={{
           headerBackTitle: "Back",
           animation: "slide_from_right",
+          headerShown : false
         }}
       >
         <Stack.Screen
