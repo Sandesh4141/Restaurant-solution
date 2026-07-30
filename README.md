@@ -27,6 +27,20 @@ src/
 └── shared/                      # Reserved for cross-cutting utilities
 ```
 
+### State Management Flow
+
+```
+OrdersScreen
+     ↓
+useOrders()
+     ↓
+OrdersContext
+     ↓
+ordersStorage
+     ↓
+AsyncStorage
+```
+
 ### Key Architectural Decisions
 
 - **State Management**: React Context API (feature-scoped) — no global state library
@@ -71,6 +85,29 @@ npm run web
 ### Demo Credentials
 
 The app uses hardcoded demo credentials for the login screen. Check `src/features/auth/constants/credentials.ts` for the current values.
+
+---
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="screenshots/Login.jpeg" alt="Login" width="280"/></td>
+    <td><img src="screenshots/OrderScreen.jpeg" alt="Orders" width="280"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/orderDetails.jpeg" alt="Order Details" width="280"/></td>
+    <td><img src="screenshots/orderDetailsWithToast.jpeg" alt="Order Details with Toast" width="280"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/PendingOrder.jpeg" alt="Pending" width="280"/></td>
+    <td><img src="screenshots/InProgress.jpeg" alt="In Progress" width="280"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/completed.jpeg" alt="Completed" width="280"/></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
