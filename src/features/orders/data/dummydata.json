@@ -1,0 +1,533 @@
+[
+  {
+    "id": "ORD001",
+    "customerName": "Rahul Sharma",
+    "totalAmount": 710,
+    "status": "Pending",
+    "createdAt": "2026-07-30T10:30:00Z",
+    "items": [
+      {
+        "id": "1",
+        "name": "Paneer Tikka",
+        "quantity": 2,
+        "price": 180
+      },
+      {
+        "id": "2",
+        "name": "Butter Naan",
+        "quantity": 3,
+        "price": 50
+      },
+      {
+        "id": "3",
+        "name": "Mango Lassi",
+        "quantity": 2,
+        "price": 80
+      },
+      {
+        "id": "4",
+        "name": "Roasted Papad",
+        "quantity": 2,
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": "ORD002",
+    "customerName": "Priya Patel",
+    "totalAmount": 1010,
+    "status": "Completed",
+    "createdAt": "2026-07-30T10:45:00Z",
+    "items": [
+      {
+        "id": "5",
+        "name": "Chicken Biryani",
+        "quantity": 2,
+        "price": 280
+      },
+      {
+        "id": "6",
+        "name": "Sweet Lassi",
+        "quantity": 1,
+        "price": 70
+      },
+      {
+        "id": "7",
+        "name": "Mixed Raita",
+        "quantity": 1,
+        "price": 50
+      },
+      {
+        "id": "8",
+        "name": "Chicken Tikka",
+        "quantity": 1,
+        "price": 250
+      },
+      {
+        "id": "9",
+        "name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": "ORD003",
+    "customerName": "Amit Singh",
+    "totalAmount": 570,
+    "status": "In Progress",
+    "createdAt": "2026-07-30T11:05:00Z",
+    "items": [
+      {
+        "id": "10",
+        "name": "Dal Makhani",
+        "quantity": 1,
+        "price": 220
+      },
+      {
+        "id": "11",
+        "name": "Jeera Rice",
+        "quantity": 1,
+        "price": 140
+      },
+      {
+        "id": "12",
+        "name": "Tandoori Roti",
+        "quantity": 4,
+        "price": 15
+      },
+      {
+        "id": "13",
+        "name": "Masala Papad",
+        "quantity": 2,
+        "price": 30
+      },
+      {
+        "id": "14",
+        "name": "Rasgulla",
+        "quantity": 3,
+        "price": 30
+      }
+    ]
+  },
+  {
+    "id": "ORD004",
+    "customerName": "Sneha Gupta",
+    "totalAmount": 250,
+    "status": "Pending",
+    "createdAt": "2026-07-30T11:10:00Z",
+    "items": [
+      {
+        "id": "15",
+        "name": "Punjabi Samosa",
+        "quantity": 4,
+        "price": 20
+      },
+      {
+        "id": "16",
+        "name": "Masala Chai",
+        "quantity": 2,
+        "price": 35
+      },
+      {
+        "id": "17",
+        "name": "Hot Jalebi",
+        "quantity": 1,
+        "price": 100
+      }
+    ]
+  },
+  {
+    "id": "ORD005",
+    "customerName": "Vikram Verma",
+    "totalAmount": 1210,
+    "status": "In Progress",
+    "createdAt": "2026-07-30T11:20:00Z",
+    "items": [
+      {
+        "id": "18",
+        "name": "Butter Chicken",
+        "quantity": 2,
+        "price": 340
+      },
+      {
+        "id": "19",
+        "name": "Garlic Naan",
+        "quantity": 4,
+        "price": 70
+      },
+      {
+        "id": "20",
+        "name": "Tandoori Roti",
+        "quantity": 2,
+        "price": 25
+      },
+      {
+        "id": "21",
+        "name": "Sprite (500ml)",
+        "quantity": 2,
+        "price": 40
+      },
+      {
+        "id": "22",
+        "name": "Chocolate Brownie",
+        "quantity": 1,
+        "price": 120
+      }
+    ]
+  },
+  {
+    "id": "ORD006",
+    "customerName": "Neha Desai",
+    "totalAmount": 530,
+    "status": "Completed",
+    "createdAt": "2026-07-30T09:15:00Z",
+    "items": [
+      {
+        "id": "23",
+        "name": "Chole Bhature",
+        "quantity": 2,
+        "price": 130
+      },
+      {
+        "id": "24",
+        "name": "Extra Bhatura",
+        "quantity": 2,
+        "price": 40
+      },
+      {
+        "id": "25",
+        "name": "Mint Jaljeera",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "id": "26",
+        "name": "Rice Kheer",
+        "quantity": 1,
+        "price": 90
+      }
+    ]
+  },
+  {
+    "id": "ORD007",
+    "customerName": "Karan Malhotra",
+    "totalAmount": 940,
+    "status": "In Progress",
+    "createdAt": "2026-07-30T11:25:00Z",
+    "items": [
+      {
+        "id": "27",
+        "name": "Mutton Rogan Josh",
+        "quantity": 1,
+        "price": 450
+      },
+      {
+        "id": "28",
+        "name": "Tandoori Roti",
+        "quantity": 3,
+        "price": 20
+      },
+      {
+        "id": "29",
+        "name": "Mutton Biryani",
+        "quantity": 1,
+        "price": 350
+      },
+      {
+        "id": "30",
+        "name": "Thums Up",
+        "quantity": 2,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": "ORD008",
+    "customerName": "Pooja Joshi",
+    "totalAmount": 690,
+    "status": "Pending",
+    "createdAt": "2026-07-30T11:32:00Z",
+    "items": [
+      {
+        "id": "31",
+        "name": "Palak Paneer",
+        "quantity": 1,
+        "price": 240
+      },
+      {
+        "id": "32",
+        "name": "Butter Naan",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "id": "33",
+        "name": "Dal Fry",
+        "quantity": 1,
+        "price": 180
+      },
+      {
+        "id": "34",
+        "name": "Steamed Rice",
+        "quantity": 1,
+        "price": 110
+      },
+      {
+        "id": "35",
+        "name": "Boondi Raita",
+        "quantity": 1,
+        "price": 60
+      }
+    ]
+  },
+  {
+    "id": "ORD009",
+    "customerName": "Rohan Kapoor",
+    "totalAmount": 1220,
+    "status": "Completed",
+    "createdAt": "2026-07-30T08:50:00Z",
+    "items": [
+      {
+        "id": "36",
+        "name": "Deluxe Veg Thali",
+        "quantity": 3,
+        "price": 200
+      },
+      {
+        "id": "37",
+        "name": "Sweet Corn Veg Soup",
+        "quantity": 2,
+        "price": 110
+      },
+      {
+        "id": "38",
+        "name": "Paneer Chilli Dry",
+        "quantity": 1,
+        "price": 210
+      },
+      {
+        "id": "39",
+        "name": "Veg Fried Rice",
+        "quantity": 1,
+        "price": 190
+      }
+    ]
+  },
+  {
+    "id": "ORD010",
+    "customerName": "Anjali Nair",
+    "totalAmount": 400,
+    "status": "Completed",
+    "createdAt": "2026-07-30T09:40:00Z",
+    "items": [
+      {
+        "id": "40",
+        "name": "Mysore Masala Dosa",
+        "quantity": 2,
+        "price": 90
+      },
+      {
+        "id": "41",
+        "name": "Medu Vada",
+        "quantity": 2,
+        "price": 40
+      },
+      {
+        "id": "42",
+        "name": "Filter Coffee",
+        "quantity": 2,
+        "price": 35
+      },
+      {
+        "id": "43",
+        "name": "Rava Idli",
+        "quantity": 1,
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "ORD011",
+    "customerName": "Suresh Reddy",
+    "totalAmount": 1460,
+    "status": "In Progress",
+    "createdAt": "2026-07-30T11:35:00Z",
+    "items": [
+      {
+        "id": "44",
+        "name": "Goan Fish Curry",
+        "quantity": 2,
+        "price": 300
+      },
+      {
+        "id": "45",
+        "name": "Jeera Rice",
+        "quantity": 2,
+        "price": 120
+      },
+      {
+        "id": "46",
+        "name": "Golden Prawns Fry",
+        "quantity": 1,
+        "price": 400
+      },
+      {
+        "id": "47",
+        "name": "Fresh Lime Soda",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "id": "48",
+        "name": "Vanilla Ice Cream",
+        "quantity": 2,
+        "price": 60
+      }
+    ]
+  },
+  {
+    "id": "ORD012",
+    "customerName": "Meera Iyer",
+    "totalAmount": 400,
+    "status": "Pending",
+    "createdAt": "2026-07-30T11:40:00Z",
+    "items": [
+      {
+        "id": "49",
+        "name": "Idli Sambar (2 pcs)",
+        "quantity": 2,
+        "price": 60
+      },
+      {
+        "id": "50",
+        "name": "Filter Coffee",
+        "quantity": 3,
+        "price": 30
+      },
+      {
+        "id": "51",
+        "name": "Mysore Pak",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "id": "52",
+        "name": "Sambar Vada",
+        "quantity": 2,
+        "price": 45
+      }
+    ]
+  },
+  {
+    "id": "ORD013",
+    "customerName": "Tariq Khan",
+    "totalAmount": 1490,
+    "status": "Completed",
+    "createdAt": "2026-07-29T20:15:00Z",
+    "items": [
+      {
+        "id": "53",
+        "name": "Chicken Tikka Masala",
+        "quantity": 2,
+        "price": 350
+      },
+      {
+        "id": "54",
+        "name": "Garlic Naan",
+        "quantity": 5,
+        "price": 70
+      },
+      {
+        "id": "55",
+        "name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 50
+      },
+      {
+        "id": "56",
+        "name": "Chicken 65",
+        "quantity": 1,
+        "price": 220
+      },
+      {
+        "id": "57",
+        "name": "Diet Coke",
+        "quantity": 3,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": "ORD014",
+    "customerName": "Divya Agarwal",
+    "totalAmount": 500,
+    "status": "In Progress",
+    "createdAt": "2026-07-30T10:05:00Z",
+    "items": [
+      {
+        "id": "58",
+        "name": "Cheese Pav Bhaji",
+        "quantity": 2,
+        "price": 120
+      },
+      {
+        "id": "59",
+        "name": "Extra Butter Pav",
+        "quantity": 2,
+        "price": 25
+      },
+      {
+        "id": "60",
+        "name": "Mumbai Vada Pav",
+        "quantity": 3,
+        "price": 20
+      },
+      {
+        "id": "61",
+        "name": "Rose Falooda",
+        "quantity": 1,
+        "price": 150
+      }
+    ]
+  },
+  {
+    "id": "ORD015",
+    "customerName": "Arjun Menon",
+    "totalAmount": 930,
+    "status": "Pending",
+    "createdAt": "2026-07-30T11:42:00Z",
+    "items": [
+      {
+        "id": "62",
+        "name": "Kadai Paneer",
+        "quantity": 1,
+        "price": 260
+      },
+      {
+        "id": "63",
+        "name": "Laccha Paratha",
+        "quantity": 3,
+        "price": 70
+      },
+      {
+        "id": "64",
+        "name": "Veg Pulao",
+        "quantity": 1,
+        "price": 180
+      },
+      {
+        "id": "65",
+        "name": "Gobi Manchurian",
+        "quantity": 1,
+        "price": 170
+      },
+      {
+        "id": "66",
+        "name": "Kesari Rabdi",
+        "quantity": 1,
+        "price": 110
+      }
+    ]
+  }
+]
