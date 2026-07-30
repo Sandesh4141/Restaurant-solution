@@ -30,3 +30,7 @@ export async function saveOrders(orders: Order[]) {
     console.error("Failed to save orders", error);
   }
 }
+
+export async function resetOrders() {
+  await AsyncStorage.removeItem("@restaurant_orders");
+}
