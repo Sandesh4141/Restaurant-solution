@@ -14,6 +14,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import { RootStackParamList } from "../../../navigation/types/types";
 import { VALID_CREDENTIALS } from "../constants/credentials";
+import { ScrollView } from "react-native-gesture-handler";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Login">;
 
@@ -52,7 +53,12 @@ const LoginScreen = ({ navigation }: Props) => {
         <Text style={styles.subtitle}>Sign in to manage your restaurant</Text>
 
         <View style={styles.inputWrapper}>
-          <MaterialCommunityIcons name="email-outline" size={20} color="#9CA3AF" style={styles.inputIcon} />
+          <MaterialCommunityIcons
+            name="email-outline"
+            size={20}
+            color="#9CA3AF"
+            style={styles.inputIcon}
+          />
           <TextInput
             placeholder="Email address"
             autoCapitalize="none"
@@ -67,7 +73,12 @@ const LoginScreen = ({ navigation }: Props) => {
         </View>
 
         <View style={styles.inputWrapper}>
-          <MaterialCommunityIcons name="lock-outline" size={20} color="#9CA3AF" style={styles.inputIcon} />
+          <MaterialCommunityIcons
+            name="lock-outline"
+            size={20}
+            color="#9CA3AF"
+            style={styles.inputIcon}
+          />
           <TextInput
             placeholder="Password"
             secureTextEntry={!showPassword}
@@ -90,18 +101,24 @@ const LoginScreen = ({ navigation }: Props) => {
           </TouchableOpacity>
         </View>
 
-        <TouchableOpacity style={styles.button} onPress={handleLogin} activeOpacity={0.85}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={handleLogin}
+          activeOpacity={0.85}
+        >
           <Text style={styles.buttonText}>Sign In</Text>
         </TouchableOpacity>
 
         <View style={styles.demoContainer}>
           <View style={styles.demoBadge}>
-            <MaterialCommunityIcons name="information-outline" size={14} color="#6366F1" />
+            <MaterialCommunityIcons
+              name="information-outline"
+              size={14}
+              color="#6366F1"
+            />
             <Text style={styles.demoBadgeText}> Demo Credentials</Text>
           </View>
-          <Text style={styles.demoText}>
-            Email: {VALID_CREDENTIALS.email}
-          </Text>
+          <Text style={styles.demoText}>Email: {VALID_CREDENTIALS.email}</Text>
           <Text style={styles.demoText}>
             Password: {VALID_CREDENTIALS.password}
           </Text>
